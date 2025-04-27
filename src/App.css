@@ -1,0 +1,5 @@
+.timeline-text ul li {
+    list-style: circle;
+    padding: 5px;
+    margin: 0 20px;
+}
