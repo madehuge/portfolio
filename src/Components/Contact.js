@@ -23,7 +23,7 @@ const Contact = ({ activeSection  }) => {
       <section className="contact-form">
         <h3 className="h3 form-title">Contact Form</h3>
 
-        <form action="#" className="form" data-form>
+        <form name="contact" action="#" className="form" method="POST" data-form netlify>
           <div className="input-wrapper">
             <input
               type="text"
