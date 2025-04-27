@@ -42,4 +42,15 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 After running `npx create-react-app`, your folder structure should look like this:
 
-# portfolio
+# portfolio Visual Resume
+
+This is a dynamic and interactive single-page application (SPA) showcasing a professional resume.
+
+## Live Demo
+
+You can view the live version of the project at the following URL:  
+[https://visualresume.netlify.app/](https://visualresume.netlify.app/)
+
+## About
+
+This project allows users to view a clean and well-structured digital resume. It features key sections such as About, Resume, and Contact, providing an interactive and user-friendly experience.
