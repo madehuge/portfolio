@@ -20,24 +20,24 @@ const Resume = ({ activeSection  }) => {
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">RTU(Rajasthan Technical University), Kota</h4>
               <span>2009 — 2013</span>
-              <p className="timeline-text">
+              <div className="timeline-text">
                Awarded a Bachelor of Technology (B.Tech) degree with Honors in Computer Science & Engineering from Rajasthan, achieving top rank in the class for 4 out of 8 semesters.
-              </p>
+              </div>
             </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">12th Board - RBSE(Rajasthan Board of Secondary Education), Jaipur</h4>
               <span>2007 — 2008</span>
-              <p className="timeline-text">
-                Achieved 70% aggregate in Science and Mathematics stream from the Rajasthan Board of Secondary Education (RBSE).</p>
+              <div className="timeline-text">
+                Achieved 70% aggregate in Science and Mathematics stream from the Rajasthan Board of Secondary Education (RBSE).</div>
             </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">10th Board - RBSE(Rajasthan Board of Secondary Education), Jaipur</h4>
               <span>2005 — 2006</span>
-              <p className="timeline-text">
+              <div className="timeline-text">
                 Achieved a 73% aggregate in General Subjects in the 10th Grade under the Rajasthan Board of Secondary Education (RBSE).
-              </p>
+              </div>
             </li>
           </ol>
         </section>
@@ -54,7 +54,7 @@ const Resume = ({ activeSection  }) => {
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Sr. WordPress Web Developer (70% Back-end, 25% Front-end)</h4>
               <span>July 2023 — Present</span>
-              <p className="timeline-text">
+              <div className="timeline-text">
                <ul>
                   <li>Designed and developed dynamic websites and web applications, ensuring seamless user experiences across multiple platforms.</li>
                   <li>Specialized in WordPress CMS development, creating custom themes, plugins, and optimizing performance for high-traffic websites.</li>
@@ -66,13 +66,13 @@ const Resume = ({ activeSection  }) => {
                   <li>Optimized website SEO and page loading speeds, enhancing site visibility and performance.</li>
                   <li>Played a key role in achieving the "Dream Team" award for outstanding team collaboration and innovative product delivery.</li>
                 </ul>
-              </p>
+              </div>
             </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">CMS - Tech Lead</h4>
               <span>Jan 2022 — June 2023</span>
-              <p className="timeline-text">
+              <div className="timeline-text">
                  <ul>
                   <li>Led cross-functional development teams, overseeing project architecture, planning, and end-to-end delivery of scalable web applications.</li>
                   <li>Mentored junior developers, conducted regular code reviews, and fostered a culture of best coding practices and continuous learning.</li>
@@ -82,13 +82,13 @@ const Resume = ({ activeSection  }) => {
                   <li>Continuously evaluated new technologies and tools to drive innovation, improve performance, and reduce technical debt.</li>
                 </ul>
 
-              </p>
+              </div>
             </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Web Developer</h4>
               <span>Jan 2016 — Dec 2021</span>
-              <p className="timeline-text">
+              <div className="timeline-text">
                <ul>
                 <li>Developed responsive, user-friendly web applications using HTML5, CSS3, JavaScript, React.js, and WordPress CMS.</li>
                 <li>Built and optimized RESTful APIs and backend services using Node.js, PHP, and MySQL databases.</li>
@@ -98,26 +98,26 @@ const Resume = ({ activeSection  }) => {
                 <li>Ensured cross-browser compatibility, mobile responsiveness, and ADA/WCAG accessibility standards across all projects.</li>
               </ul>
 
-              </p>
+              </div>
             </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">PHP Developer</h4>
               <span>June 2014 — Dec 2015</span>
-              <p className="timeline-text">
+              <div className="timeline-text">
                <ul>
                 <li>Developed responsive, user-friendly web applications using HTML5, CSS3, JavaScript and WordPress CMS.</li>
                 <li>Built and optimized RESTful APIs and backend services using PHP, and MySQL databases.</li>
                 
               </ul>
 
-              </p>
+              </div>
             </li>
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Trainee Web Developer</h4>
               <span>Oct 2013 — May 2014</span>
-              <p className="timeline-text">
+              <div className="timeline-text">
                <ul>
                 <li>Assisted in designing and updating WordPress and other CMS-based websites, ensuring functional layouts and intuitive navigation.</li>
                 <li>Learned and implemented basic customization of CMS themes and plugins to meet client-specific requirements and branding guidelines.</li>
@@ -125,7 +125,7 @@ const Resume = ({ activeSection  }) => {
               </ul>
 
 
-              </p>
+              </div>
             </li>
           </ol>
         </section>

@@ -27,7 +27,7 @@ const About = ({ activeSection  }) => {
         <ul className="service-list">
           <li className="service-item">
             <div className="service-icon-box">
-              <img src="./assets/images/icon-design.svg" alt="Design icon" width="40" />
+              <img src="./assets/images/icon-design.png" alt="Design icon" width="40" />
             </div>
             <div className="service-content-box">
               <h4 className="h4 service-item-title">Web-App Design & Development</h4>
@@ -39,7 +39,7 @@ const About = ({ activeSection  }) => {
 
           <li className="service-item">
             <div className="service-icon-box">
-              <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40" />
             </div>
             <div className="service-content-box">
               <h4 className="h4 service-item-title">Team Leadership & Guidance</h4>
@@ -51,7 +51,7 @@ const About = ({ activeSection  }) => {
 
           <li className="service-item">
             <div className="service-icon-box">
-              <img src="./assets/images/icon-app.svg" alt="Mobile app icon" width="40" />
+              <img src="./assets/images/icon-app.png" alt="Mobile app icon" width="40" />
             </div>
             <div className="service-content-box">
               <h4 className="h4 service-item-title">Web & Mobile Device ADA Compatibility</h4>
@@ -63,7 +63,7 @@ const About = ({ activeSection  }) => {
 
           <li className="service-item">
             <div className="service-icon-box">
-              <img src="./assets/images/icon-photo.svg" alt="Camera icon" width="40" />
+              <img src="./assets/images/icon-photo.png" alt="Camera icon" width="40" />
             </div>
             <div className="service-content-box">
               <h4 className="h4 service-item-title">Photography</h4>
