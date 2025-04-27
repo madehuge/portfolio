@@ -27,7 +27,7 @@ Your app is ready to be deployed!
 Launches the test runner in the interactive watch mode.  
 See the section about [running tests](https://reactjs.org/docs/testing.html) for more information.
 
-### `npm eject`
+### `npm eject` 
 
 **Note:** This is a one-way operation. Once you eject, you can't go back!  
 If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
