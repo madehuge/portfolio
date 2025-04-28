@@ -1,4 +1,5 @@
 import React from 'react';
+import Testimonials from './Testimonials';
 
 const About = ({ activeSection  }) => {
   return (
@@ -75,39 +76,7 @@ const About = ({ activeSection  }) => {
         </ul>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="testimonials">
-        <h3 className="h3 testimonials-title">Appreciations, Awards & Recognitions</h3>
-        <ul className="testimonials-list has-scrollbar">
-          <li className="testimonials-item">
-            <div className="content-card" data-testimonials-item>
-              <figure className="testimonials-avatar-box">
-                <img src="./assets/images/the-leader.png" alt="The Leader Award" width="60" data-testimonials-avatar />
-              </figure>
-              <h4 className="h4 testimonials-item-title" data-testimonials-title>The Leader (Oct 2022) - OneClick IT Consultancy Pvt Ltd</h4>
-              <div className="testimonials-text" data-testimonials-text>
-                <p>
-                 Awarded for outstanding leadership, organizational growth, and innovative approaches in leading the team to achieve remarkable success for the company.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li className="testimonials-item">
-            <div className="content-card" data-testimonials-item>
-              <figure className="testimonials-avatar-box">
-                <img src="./assets/images/dream-team.png" alt="Dream Team" width="60" data-testimonials-avatar />
-              </figure>
-              <h4 className="h4 testimonials-item-title" data-testimonials-title>Dream Team (Oct 2023) - AgreeYa Solutions India Pvt Ltd</h4>
-              <div className="testimonials-text" data-testimonials-text>
-                <p>
-                  For innovative product delivery in WordPress CMS, team bonding, team coordination, team support, and team quality work.
-                </p>
-              </div>
-            </div>
-          </li>
-          
-        </ul>
-      </section>
+     <Testimonials />
 
       {/* Clients Section */}
       <section className="clients">
