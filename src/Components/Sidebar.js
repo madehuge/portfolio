@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 const Sidebar = () => {
 
@@ -28,9 +28,15 @@ const SocialItem = ({ href, icon }) => (
   </li>
 );
 
+const [isExpanded, setIsExpanded] = useState(false);
+
+const toggleContacts = () => {
+  setIsExpanded(prev => !prev);
+};
+
 
 return (
-    <aside className="sidebar" data-sidebar>
+    <aside className={`sidebar ${isExpanded ? 'active' : ''}`} data-sidebar>
       <div className="sidebar-info">
         <figure className="avatar-box">
           <img src="/assets/images/manish-passport.png" alt="Manish Kumar Jangir" width="80" />
@@ -42,17 +48,18 @@ return (
         </div>
 
         <button
-          className="info_more-btn"
+          className={`info_more-btn`}
           data-sidebar-btn
-          aria-expanded="false"
+          aria-expanded={isExpanded}
           aria-controls="sidebar-info_more"
+          onClick={toggleContacts}
         >
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down"></ion-icon>
+          <span>{isExpanded ? 'Hide Contacts' : 'Show Contacts'}</span>
+          <ion-icon name={isExpanded ? 'chevron-up' : 'chevron-down'}></ion-icon>
         </button>
       </div>
 
-      <div className="sidebar-info_more" id="sidebar-info_more">
+      <div className={`sidebar-info_more ${isExpanded ? 'expanded' : ''}`} id="sidebar-info_more">
         <div className="separator"></div>
 
         <ul className="contacts-list">
@@ -83,9 +90,9 @@ return (
         <div className="separator"></div>
 
         <ul className="social-list">
-          <SocialItem href="https://www.facebook.com/manish.jangir.127/" target="_blank"  rel="noreferrer" icon="logo-facebook" />
-          <SocialItem href="https://www.linkedin.com/in/iammanishjangir/" target="_blank"  rel="noreferrer" icon="logo-linkedin" />
-          <SocialItem href="https://www.instagram.com/its_me_manish027/" target="_blank"  rel="noreferrer" icon="logo-instagram" />
+          <SocialItem href="https://www.facebook.com/manish.jangir.127/" icon="logo-facebook" />
+          <SocialItem href="https://www.linkedin.com/in/iammanishjangir/" icon="logo-linkedin" />
+          <SocialItem href="https://www.instagram.com/its_me_manish027/" icon="logo-instagram" />
           <SocialItem href="https://github.com/madehuge" target="_blank" rel="noreferrer" icon="logo-github" />
         </ul>
       </div>
